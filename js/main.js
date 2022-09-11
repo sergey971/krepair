@@ -8,6 +8,9 @@ owl.owlCarousel({
     items: 4,
     lazyLoad: true,
     responsive: {
+        375: {
+            items: 1,
+        },
         425: {
             items: 1,
         },
