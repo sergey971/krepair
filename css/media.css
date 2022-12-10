@@ -721,8 +721,17 @@
     .menu__list{
         transform: translateY(-200%);
         display: block;
-        background-color:rgba(247, 70, 57, 0.836);
+        background-color:rgb(240, 78, 78);
         padding: 10px 0;
+        position: absolute;
+        top: 46px;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        transition: all .5s ease-in;
+    }
+    .menu__list.menu__list--active{
+        transform: translateY(0%);
     }
     .menu__link{
         padding: 10px;
@@ -731,6 +740,7 @@
     }
     .header__menu{
         border:none;
+        width: 100%;
     }
 
 
@@ -751,7 +761,7 @@
     }
 
     .menu__list a {
-        font-size: 13.4px;
+        font-size: 19.4px;
     }
 
     /* SERVICE======== */
