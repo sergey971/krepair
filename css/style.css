@@ -964,3 +964,7 @@ body {
 }
 
 .column-footer__block4 {}
+
+.menu__btn{
+    display: none;
+}

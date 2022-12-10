@@ -33,5 +33,9 @@ $('.slider__btn--next').click(function () {
     owl.trigger('next.owl.carousel');
 })
 
+$('.menu__btn').on('click', function(){
+    $('menu__list').toggleClass('menu__list--active');
+});
+
 
 
