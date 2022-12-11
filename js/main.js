@@ -24,14 +24,27 @@ owl.owlCarousel({
         },
     },
 });
-
+// carousel button
 $('.slider__btn--prev').click(function () {
     owl.trigger('prev.owl.carousel');
-})
+});
 
 $('.slider__btn--next').click(function () {
     owl.trigger('next.owl.carousel');
-})
+});
+// carousel button
+
+//menu burger 
+$('#nav-icon').on('click', function(){
+    $('.menu__list').toggleClass('menu__list--active');
+});
+
+$(document).ready(function(){
+    $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
+	});
+});
+//menu burger 
 
 
 
