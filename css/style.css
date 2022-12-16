@@ -189,7 +189,7 @@ body {
     line-height: 175%;
     letter-spacing: -0.05em;
     border-radius: 10px;
-    padding: 15px 20px 9px 21px;
+    padding: 10px 20px 9px 21px;
 }
 
 .button-red {
@@ -232,6 +232,7 @@ body {
 /* =============OUR================ */
 .our {
     background-color: #525252;
+    padding-top: 29px;
 }
 
 .our__container {
@@ -242,7 +243,7 @@ body {
     margin: 0px 0px 80px 0px;
 }
 
-.services {}
+
 
 .services__body {}
 
@@ -330,7 +331,7 @@ body {
 }
 
 .column__row-electro {
-    padding: 54px 117px 29px 74px;
+    padding: 54px 117px 37px 74px;
 }
 
 .column__row-tv {
@@ -390,7 +391,7 @@ body {
 .column__button {
     border: 2px #000000 solid;
     border-radius: 8px;
-    padding: 8px 32px 15px
+    padding: 8px 32px 10px
 }
 
 .button {
@@ -898,7 +899,9 @@ body {
     color: #EFEFEF;
 }
 
-.col__email {}
+.col__email a {
+    color: #DEDCDC;
+}
 
 .col__phone {
     font-weight: 700;
