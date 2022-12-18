@@ -102,16 +102,9 @@ body {
     margin-top: 25px;
 }
 
-.header-logo {}
-
-.header__menu {}
-
-.menu {}
-
 .menu__list {
     display: flex;
     column-gap: 76px;
-
 }
 
 .menu__link {
@@ -127,14 +120,7 @@ body {
     font-weight: 700;
 }
 
-.heder__phone-link {}
-
 /* =======================================SERVICE */
-.header__service {}
-
-.service {}
-
-.service__container {}
 
 .service__body {
     margin: 76px 0px 46px 0px;
@@ -147,14 +133,8 @@ body {
     align-items: center;
 }
 
-
-.service__center {}
-
-.center {}
-
 .block-one {
     display: flex;
-    /* flex-direction: column; */
 }
 
 .centre__title {
@@ -196,8 +176,6 @@ body {
     background: #F03957;
 
 }
-
-.button__link {}
 
 .button-colorless {
     border: 2px solid #000000;
@@ -244,9 +222,6 @@ body {
 }
 
 
-
-.services__body {}
-
 .services__row {
     display: flex;
     column-gap: 80px;
@@ -256,8 +231,6 @@ body {
 .services__block {
     flex: 0 1 50%;
 }
-
-.block-one {}
 
 .block-one__title {
     font-weight: 700;
@@ -292,10 +265,6 @@ body {
 }
 
 /* ========================CARD */
-.our__columns {}
-
-.our__row {}
-
 .services {
     margin-top: 10px;
 }
@@ -405,9 +374,6 @@ body {
 }
 
 /* ========ADVANTAGES */
-.our__advantages__container {}
-
-._container {}
 
 .our__advantages {
     background-color: #F7F5F5;
@@ -417,25 +383,18 @@ body {
     margin-top: 119px;
 }
 
-.advantages__header {}
 
 .advantages__row {
     display: flex;
     align-items: center;
     column-gap: 138px;
     margin-bottom: 80px;
-
 }
-
-.advantages__block {}
-
-.block-one {}
 
 .block-one__title-color {
     color: #000000;
 }
 
-.block-two {}
 
 .block-two__text-color {
     color: #000000;
@@ -519,22 +478,15 @@ body {
     background-color: #F5F5F5;
 }
 
-.brands__container {}
-
 .brands__row {
     margin-top: 120px;
 }
-
-.brands__block {}
-
 
 .brands__slider {
     position: relative;
     height: 107px;
     margin-bottom: 120px;
 }
-
-.owl-carousel img {}
 
 .slider__item {
     width: 267px;
@@ -543,10 +495,6 @@ body {
     border: 2px solid #ddd4d4;
     border-radius: 20px;
 }
-
-.owl-carousel {}
-
-.slider__item {}
 
 .slider__btn {
     position: absolute;
@@ -586,9 +534,6 @@ body {
     margin-bottom: 16px;
 }
 
-.reviews__columns {}
-
-.reviews__column {}
 
 .reviews__row {
     display: flex;
@@ -699,17 +644,10 @@ body {
     flex-direction: column;
 }
 
-.block-one__title {}
-
 .block-one__title-white {
     color: #fff;
 }
 
-.block-one__sub-title {}
-
-.block-two {}
-
-.block-two__text {}
 
 .block-two__text-white {
     margin-top: 20px;
@@ -723,7 +661,6 @@ body {
     margin-bottom: 141px;
 }
 
-.form__contact {}
 
 .form__row {
     padding: 101px 95px 40px 99px;
@@ -756,8 +693,6 @@ input[type=text], input[type=email] {
 .form__item:not(:last-child) {
     margin-bottom: 20px;
 }
-
-.form__box2 {}
 
 .form__textarea {
     width: 465px;
@@ -794,7 +729,6 @@ textarea::placeholder {
     flex-direction: column;
 }
 
-.form__label {}
 
 .form__file {
     display: flex;
@@ -804,7 +738,6 @@ textarea::placeholder {
 
 }
 
-.form__label {}
 
 .file {
     position: relative;
@@ -884,8 +817,6 @@ textarea::placeholder {
 
 }
 
-.map__col {}
-
 .col__map {
     width: 100%;
     background-color: #525252;
@@ -900,7 +831,6 @@ textarea::placeholder {
     row-gap: 25px;
 }
 
-.col__logo {}
 
 .col__title-map, .col__email {
     font-weight: 400;
@@ -930,12 +860,6 @@ textarea::placeholder {
 .footer {
     background-color: #000000;
 }
-
-.footer__container {}
-
-._container {}
-
-.footer__body {}
 
 .footer__row {
     display: flex;
@@ -978,8 +902,6 @@ textarea::placeholder {
 .column-footer__block3 {
     margin-right: 109px;
 }
-
-.column-footer__block4 {}
 
 .menu__btn {
     display: none;
