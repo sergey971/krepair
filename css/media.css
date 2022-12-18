@@ -536,10 +536,12 @@
     .text {
         text-align: center;
     }
+
     .column__body {
         text-align: center;
     }
-    .column__body__title-phone{
+
+    .column__body__title-phone {
         margin-top: 10px;
     }
 
@@ -558,6 +560,7 @@
         padding: 30px 30px 43px 30px;
         flex-direction: column-reverse;
     }
+
     .column__row.column__row-electro {
         display: flex;
         flex-direction: column-reverse;
@@ -664,7 +667,11 @@
     }
 
     .form__item {
-        padding: 13px 270px 16px 25px;
+        padding: 13px 270px 16px 0px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 300px;
     }
 
     .form__textarea {
@@ -885,13 +892,13 @@
     }
 
     .column__button {
-        margin-left: 26%;
+        margin-left: 0%;
     }
 
-    .button--photo {
+    /* .button--photo {
 
         margin-left: 32%;
-    }
+    } */
 
     .column__row {
         padding: 17px 45px 38px 57px;
@@ -901,7 +908,12 @@
         padding: 30px 30px 43px 30px;
     }
 
+    .column__row-photo {
+        flex-direction: column-reverse;
+    }
+
     /* ====== */
+
     .advantages__row {
         margin-top: 30px;
     }
@@ -1010,8 +1022,13 @@
     }
 
     .form__item {
-        padding: 13px 227px 16px 25px;
+        padding: 13px 227px 16px 0px;
     }
+
+    input[type=text], input[type=email] {
+        width: 256px;
+    }
+
 
     .form__textarea {
         width: 256px;
@@ -1019,8 +1036,13 @@
     }
 
     .form__textarea textarea {
-        padding: 13px 30px 170px 24px;
+        padding: 13px 0px 170px 24px;
+    }
 
+    textarea::placeholder {
+        font-size: 15px;
+        color: #817979;
+        font-family: 'Roboto', sans-serif;
     }
 
     .form__file {
@@ -1094,4 +1116,38 @@
     }
 
     .column-footer__block4 {}
+}
+
+@media(max-width:320px) {
+    .text {
+        line-height: 25px;
+    }
+
+    .block-one__title {
+        margin-top: -30px;
+        margin-right: 0px;
+    }
+
+    .block-one__sub-title {
+        font-size: 34px;
+        margin-left: 40px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 200px;
+    }
+    .form__textarea {
+        width: 199px;
+    }
+    .form__textarea textarea {
+        padding: 13px 0px 170px 6px;
+    }
+    .file__button {
+        margin-left: 28px;
+    }
+    .form__label {
+        margin-top: 18px;
+        text-align: center;
+        margin-right: 56px;
+    }
 }
