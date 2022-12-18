@@ -1133,6 +1133,10 @@
         margin-left: 40px;
     }
 
+    .advantages__row {
+        margin-top: 19px;
+    }
+
     input[type=text], input[type=email] {
         width: 200px;
     }
@@ -1149,5 +1153,8 @@
         margin-top: 18px;
         text-align: center;
         margin-right: 56px;
+    }
+    .form__item:not(:last-child) {
+        margin-bottom: -6px;
     }
 }
