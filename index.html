@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <!-- Вполне возможно попробовать wrapper назначить прямо на body, и div-не понадобится -->
     <div class="wrapper">
         <header class="header">
             <div class="header__container _container">
@@ -49,10 +50,19 @@
                         <span></span>
                     </div>
                 </nav>
-                <div class="header__phone"><a class="header__phone-link" href="tel:+7 (8142) 33 22 11">+7 499 226 29
-                        28</a></div>
+                <div class="header__phone">
+                    <!--
+                        В тексе можно заменить пробелы на &nbsp;, чтобы телефон не переносился на
+                        следующую строку, а был одним словом.
+                    -->
+                    <a class="header__phone-link" href="tel:+7 (8142) 33 22 11">+7 499 226 29 28</a>
+                </div>
 
             </div>
+            <!-- 
+                нестилизованные классы дают читаемость - хорошо,
+                возможно часть div-ов можно было бы убрать
+            -->
             <div class="header__service service">
                 <div class="service__container _container">
                     <div class="service__body">
@@ -61,6 +71,10 @@
                                 <div class="centre__title">Сервисный центр </div>
                                 <div class="service__sub-title">по ремонту техники в Москве</div>
                                 <div class="service__button-row">
+                                    <!-- 
+                                        Стоило просто застилизовать ссылку, как кнопку (div не требуется)
+                                        Сейчас кликабелен только текст - а по идее, должен быть кликабелен весь блок
+                                    -->
                                     <div class="service__button button button-red">
                                         <a class="button__link button__link-red" href="#">Получить консультацию</a>
                                     </div>
@@ -86,6 +100,7 @@
                     <div id="service" class="services__body">
                         <div class="services__row ">
                             <div class="services__block block-one">
+                                <!-- Это похоже на заголовок Секции (h2-h6) -->
                                 <div class="block-one__title block-one__title-top">Наши услуги </div>
                                 <div class="block-one__sub-title">для вас</div>
                             </div>
@@ -204,6 +219,7 @@
                     <div class="advantages__header">
                         <div class="advantages__row ">
                             <div class="advantages__block block-one">
+                                <!-- Похоже на заголовок сессии -->
                                 <div class="block-one__title block-one__title-color">Наши</div>
                                 <div class="block-one__sub-title">Преимущества</div>
                             </div>
@@ -264,6 +280,7 @@
             <div class="brands__container _container">
                 <div class="brands__row ">
                     <div class="brands__block block-one">
+                        <!-- Заголовок секции -->
                         <div class="block-one__title block-one__title-color">Мы работаем с этими брендами </div>
                         <div class="block-one__sub-title"> и не только</div>
                     </div>
@@ -294,6 +311,7 @@
                 <section class="block">
                     <div id="reviews" class="reviews">
                         <div class="reviews__row ">
+                            <!-- заголовок секции -->
                             <div class="reviews__block block-one">
                                 <div class="block-one__title block-one__title-color">Отзывы наших</div>
                                 <div class="block-one__sub-title">клиентов</div>
@@ -441,6 +459,7 @@
                         </div>
                     </form>
                     <div class="form__file">
+                        <!-- Все инпути формы должны быть в <form> -->
                         <div class="form__label">Прикрепить фото или видео</div>
                         <div class="file">
                             <input class="file__input" type="file" class="form__input">
@@ -449,6 +468,7 @@
                     </div>
                     <div class="form__footer">
                         <div class="form__button">
+                            <!-- Это не просто ссылка - а submit-кнопка в форме, должна быть внутри <form> -->
                             <a class="form__button-link" href="#">Оставьте заявку</a>
                         </div>
                         <div class="form__footer-text">
