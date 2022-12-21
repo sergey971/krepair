@@ -73,7 +73,8 @@ body {
 
 .wrapper {
     min-height: 100%;
-    overflow: hidden;
+    /* Не совсем понятно зачем нужно здесь прятать overflow */
+    overflow: hidden; 
     display: flex;
     flex-direction: column;
 }
@@ -902,7 +903,7 @@ textarea::placeholder {
 .column-footer__block3 {
     margin-right: 109px;
 }
-
+/* Уже есть похожий класс */
 .menu__btn {
     display: none;
 }
