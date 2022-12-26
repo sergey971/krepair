@@ -137,6 +137,10 @@
     .form__textarea textarea {
         width: 85%;
     }
+    .form__file {
+        right: 90px;
+
+    }
 
     .form__footer-text {
         margin-left: 38px;
@@ -385,7 +389,9 @@
     .form__textarea textarea {
         width: 100%;
     }
-
+    .form__file {
+        right: 20px;
+    }
     .form__label {
         margin-top: 20px;
 
@@ -645,18 +651,23 @@
         justify-content: center;
         column-gap: 20px;
     }
-
-    .form__item {
-        padding: 13px 270px 16px 25px;
+    .form__box1{
+        width: 300px;
     }
-
+    .form__item {
+        width: 100%;
+    }
+    .form__box2{
+        width: 300px;
+    }
     .form__textarea {
         width: 300px;
         height: auto;
     }
 
     .form__textarea textarea {
-        padding: 13px 30px 170px 24px;
+        width: 100%;
+        padding: 13px 24px;
 
     }
 
@@ -666,12 +677,11 @@
         margin-left: 86px;
     }
 
-    .file__button {
-        margin-left: 52px;
-    }
+
 
     .form__footer {
         margin-left: -5px;
+        margin-top: auto;
     }
 
     /* =====map===== */
@@ -900,23 +910,25 @@
     }
 
     .form__row {
-        padding: 50px;
+        padding: 20px;
         display: flex;
         justify-content: center;
         column-gap: 20px;
     }
-
-    .form__item {
-        padding: 13px 227px 16px 25px;
+    .form__box1{
+        width: 300px;
     }
-
+    .form__item input{
+        width: 100%;
+        /* padding: 13px 25px; */
+    }
     .form__textarea {
-        width: 256px;
-        height: auto;
+
     }
 
     .form__textarea textarea {
-        padding: 13px 30px 170px 24px;
+        width: 100%;
+        padding: 13px 24px;
 
     }
 
