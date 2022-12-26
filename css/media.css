@@ -724,8 +724,6 @@
         flex-direction: column;
     }
 
-    .services__block {}
-
     .centre__title {
         text-align: center;
     }
@@ -914,9 +912,7 @@
         width: 100%;
         /* padding: 13px 25px; */
     }
-    .form__textarea {
 
-    }
 
     .form__textarea textarea {
         width: 100%;
